@@ -8,8 +8,8 @@ RUN rm -f /tmp/requirements.txt
 
 RUN mkdir /usr/app
 
-COPY config.py /usr/app
-COPY main.py /usr/app
+COPY config.py /usr/app/
+COPY main.py /usr/app/
 
 WORKDIR /usr/app
 
